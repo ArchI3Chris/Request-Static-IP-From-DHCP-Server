@@ -10,7 +10,7 @@ requested IP address.
 
 # Manual
 
-In the dhclient.conf file enter the desired IP address. Of course make sure it is a valid one. You want get something 10.10.10.10, if you are on a 192.168.1.x network. You'll know where ;)  And in the 
+In the dhclient.conf file enter the desired IP address. Of course make sure it is a valid one. You won't get something 10.10.10.10, if you are on a 192.168.1.x network. You'll know where ;)  And in the 
 dhc file enter the network interface you use to connect with the DHCP server. If you don't know, "ip addr" should give you a clue. Make sure the permissions are set correctly for dhc to be an 
 executable (chmod +x dhc). Then run dhc. I guess you have to run it as sudo/root. I always do. So, I don't know if it works for a normal user.
 
