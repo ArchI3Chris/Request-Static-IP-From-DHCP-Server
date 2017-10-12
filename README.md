@@ -5,8 +5,8 @@ addresses given by the host settings. And disabling the DHCP Server results in n
 
 # What It Does
 
-Even though the DHCP Server accept any settings, the script just asks nicely for the IP address you want for the host. And in my case the router does accept the request and assigns the requested IP 
-address.
+Even though the DHCP Server doesn't accept any settings, the script just asks nicely for the IP address you want for the host. And in my case the router does accept the request and assigns the 
+requested IP address.
 
 # Manual
 
