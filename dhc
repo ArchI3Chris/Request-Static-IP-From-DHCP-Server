@@ -1,0 +1,3 @@
+#!/bin/sh
+dhclient -r -v
+dhclient -4 -d -v -cf dhclient.conf <INTERFACE> &
